@@ -1,0 +1,32 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  
+}
+section{
+    
+    padding: 5px;
+    font-size: small;
+   
+}
+.imagen{
+    text-align: justify;
+}
+a{
+ color: black;
+}
+.con1
+{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+.con2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.cont3
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}

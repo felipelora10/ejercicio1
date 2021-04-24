@@ -1,38 +1,46 @@
-<<<<<<< HEAD
-<head><ul style="margin-top: 15px;margin-left: 100px;padding: 10px; font-size: 30px;text-align: justify; "><center>CSS GIRD</center> </ul>
-   
-    <style type="text/class">
-    *{
-    padding: 0px;
-    margin: 0px;
-    }   
 
-        header 
-        {
-    margin: auto;
-    width: 500px;
-    background-color: blueviolet;
-        }
-        .nav li
-        {
-        margin-top: 500px;
-        color: blueviolet;
-        }
-    </style>
+<head><ul style="margin-top: 15px;margin-left: 100px;padding: 10px; font-size: 30px;text-align: center; "><center>CSS GIRD</center> </ul>
+   <div style="text-align: center;"><img src="images/1.jpg" class="imagen" ></div> 
+    <link rel="stylesheet" href="estilos.css">
 
 </head>
 
 <body style="background-color: cadetblue;">
     
-    <a href="">
+    <div  class="contenedor" >
+        <section>
+             <ul class="nav">
+           <li><a href="pagina1.html"> →INICIO</a></li>
+                <ul>
+                   <li> <a href="" > →APRENDIZAJE 1</a></li>
+                   <li><a href="" > →APRENDIZAJE 2</a></li>
+                </ul>
+         
+                
+            <li><a href="pagina2flex.html" > →RECURSOS DIGITALES FLEXBOX</a></li>
+            <li><a href="pagina2cssgird.html"  > →RECURSOS DIGITALES CSSGIRD</a></li>
+            <li><a href="autor.html"  > →AUTOR</a></li>
+        </ul>
+            </section>
+        <aside>
+            <h2>
+              <div class="timeline_unad">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>              
+            </div></h2>
+          </aside>
+            
+
+ 
+    </div>
 
 
-      
+      <div class="con1">
     </a>
+    <section class="sec1">
     <div id="heades">
 
        
-             <li style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 20px;margin-left: 20px; border: 1px dashed red">Qué hay de nuevo en CSS Grid?
+             <li style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 20px;margin-left: 20px; border: 1px dashed rgb(165, 33, 33)">Qué hay de nuevo en CSS Grid?
                 CSS Grid es un modelo de maquetación CSS en base a una rejilla, algo que podría no parecer tan novedoso, si tenemos en cuenta que diversas librerías de CSS lo habían intentado ya. Sistemas como 960 Grid System fueron pioneros en crear una base de código CSS para que los diseñadores pudieran posicionar los elementos en una distribución de filas y columnas. El propio Bootstrap incluye entre otras cosas un sistema de rejilla. Al final, estos sistemas funcionaron pero tenían varios problemas:
                 
                 Agregaban peso al CSS, con código de cientos de clases que muchas veces ni siquiera llegabas a usar.
@@ -41,66 +49,30 @@
                 Sin embargo, ahora Grid es un estándar y no es necesario recargar ni ensuciar el código para aplicarlo. Todo se aplica directamente desde el CSS, por medio de nuevos atributos, valores y unidades con una variada sintaxis. Además, un sitio con Grid resulta sencillo de mantener y de aplicar otras herramientas de CSS3 como las mediaqueries, y, por supuesto, es totalmente adaptable a los dispositivos (responsive).
                 
                 Al ser una especificación estable, estándar y soportada por  prácticamente todos los navegadores modernos (y si no, siempre podemos utilizar los  polyfills) se considera realmente CSS, por lo que se puede utilizar en todos los sitios donde ya se utilice código CSS: sitios estáticos, programación con un lenguaje determinado, un framework o para cualquier tipo de dispositivos (escritorio, móviles, tablets) o webapps.</li>
-          
+            </div>
+            </section>
+<section class="sec2">
         <img style="margin-left: 20px;margin-top: 25px;" src="images/maxresdefault.jpg" >
         <img style="margin-left: 20px;margin-top: 25px;"" src="images/flexbox-cssgrid.png" >
-    </div>
+
+    </section>
+
+</div>
 
 
 
 
 
-=======
-<head><ul style="margin-top: 15px;margin-left: 100px;padding: 10px; font-size: 30px;text-align: justify; "><center>CSS GIRD</center> </ul>
-   
-    <style type="text/class">
-    *{
-    padding: 0px;
-    margin: 0px;
-    }   
 
-        header 
-        {
-    margin: auto;
-    width: 500px;
-    background-color: blueviolet;
-        }
-        .nav li
-        {
-        margin-top: 500px;
-        color: blueviolet;
-        }
-    </style>
-
-</head>
-
-<body style="background-color: cadetblue;">
-    
-    <a href="">
+ 
 
 
       
-    </a>
-    <div id="heades">
-
-       
-             <li style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 20px;margin-left: 20px; border: 1px dashed red">Qué hay de nuevo en CSS Grid?
-                CSS Grid es un modelo de maquetación CSS en base a una rejilla, algo que podría no parecer tan novedoso, si tenemos en cuenta que diversas librerías de CSS lo habían intentado ya. Sistemas como 960 Grid System fueron pioneros en crear una base de código CSS para que los diseñadores pudieran posicionar los elementos en una distribución de filas y columnas. El propio Bootstrap incluye entre otras cosas un sistema de rejilla. Al final, estos sistemas funcionaron pero tenían varios problemas:
-                
-                Agregaban peso al CSS, con código de cientos de clases que muchas veces ni siquiera llegabas a usar.
-                Habia que aplicar constantemente clases y nombre que ensuciaban mucho el HTML.
-                Creaba código de muy difícil mantenimiento, haciendo que el proyecto estuviera ligado de manera muy directa con un sistema propietario.
-                Sin embargo, ahora Grid es un estándar y no es necesario recargar ni ensuciar el código para aplicarlo. Todo se aplica directamente desde el CSS, por medio de nuevos atributos, valores y unidades con una variada sintaxis. Además, un sitio con Grid resulta sencillo de mantener y de aplicar otras herramientas de CSS3 como las mediaqueries, y, por supuesto, es totalmente adaptable a los dispositivos (responsive).
-                
-                Al ser una especificación estable, estándar y soportada por  prácticamente todos los navegadores modernos (y si no, siempre podemos utilizar los  polyfills) se considera realmente CSS, por lo que se puede utilizar en todos los sitios donde ya se utilice código CSS: sitios estáticos, programación con un lenguaje determinado, un framework o para cualquier tipo de dispositivos (escritorio, móviles, tablets) o webapps.</li>
-          
-        <img style="margin-left: 20px;margin-top: 25px;" src="images/maxresdefault.jpg" >
-        <img style="margin-left: 20px;margin-top: 25px;"" src="images/flexbox-cssgrid.png" >
-    </div>
+   
 
 
 
 
 
->>>>>>> 28af775ef91217354777ca1aad1b2db950884245
+
 </body>
