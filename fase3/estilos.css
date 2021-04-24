@@ -30,3 +30,14 @@ a{
     display: grid;
     grid-template-columns: 70% 30%;
 }
+.cont4
+{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+.cont5
+{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+}
